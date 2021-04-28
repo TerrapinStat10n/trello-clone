@@ -48,7 +48,7 @@ export default function seed(store) {
     payload: {
       listId: secondListId,
       cardId: shortid.generate(),
-      cardText: "If you hover over a card, you'll see a pencil icon for deletion"
+      cardText: "If you hover over a card (or click on mobile), you'll see a pencil icon for deletion"
     }
   });
 };
